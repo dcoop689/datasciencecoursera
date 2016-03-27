@@ -4,7 +4,7 @@ makeVector <- function(x = numeric()) {
     x <<- y
     m <<- NULL
   }
-  et <- function() x
+  set <- function() x
   get <- x
   setmean <- function(mean) m <<- mean
   getmean <- function() m
